@@ -1810,7 +1810,7 @@ shell_reinitialize ()
 
   /* Ensure that the default startup file is used.  (Except that we don't
      execute this file for reinitialized shells). */
-  bashrc_file = "~/.bashrc";
+  bashrc_file = "/system/etc/bash/bashrc";
 
   /* Delete all variables and functions.  They will be reinitialized when
      the environment is parsed. */
